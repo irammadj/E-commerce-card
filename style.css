@@ -1,0 +1,125 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.card {
+  width: 320px;
+  height: auto;
+  border-radius: 16px;
+  background-color: #ffffff;
+  border: 1px solid #eaecef;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  gap: 12px;
+  transition: all 0.3s ease;
+}
+
+.product-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #f0f2f5;
+  margin: auto;
+  object-fit: cover;
+}
+
+.product-title {
+  color: #1a1a1a;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #757575;
+}
+
+.stars {
+  color: #ffb400;
+  font-size: 14px;
+}
+
+.description {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+.price-row {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 12px;
+  border-radius: 12px;
+}
+.price {
+  color: #222222;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.small-stars {
+  color: #ffb800;
+  font-size: 12px;
+}
+
+.add-btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.quant {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.quant-button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  min-width: 24px;
+  text-align: center;
+}
+
+.quant-button:hover {
+  background-color: #e0e0e0;
+}
+
+.card:hover {
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-4px);
+}
